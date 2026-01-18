@@ -165,7 +165,7 @@ function HomePage({ setCurrentPage, blogs }) {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-4">Welcome to My Vlog</h1>
+          <h1 className="text-5xl font-bold mb-4">Welcome to My Blog</h1>
           <p className="text-xl text-blue-100 mb-8">Exploring Web Development, Cybersecurity</p>
           <button 
             onClick={() => setCurrentPage('blogs')}
